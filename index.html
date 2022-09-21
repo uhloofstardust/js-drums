@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sanved">
+    <title>JS Drums</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">hat</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/kick.wav"></audio>
+    <audio data-key="83" src="sounds/clap.wav"></audio>
+    <audio data-key="68" src="sounds/snare.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+
+  </body>
+  <script src="script.js"></script>
+</html>
